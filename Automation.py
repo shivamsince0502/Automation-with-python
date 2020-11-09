@@ -213,6 +213,4 @@ if __name__ == "__main__":
        start_server()
      elif 'docker' in to_do and 'run' in to_do and 'start' in to_do and 'container' in to_do:
        docker_cont_run()
-     else:
-       print('again run command\n')
-       speak('speak again ')
+
